@@ -1,0 +1,152 @@
+
+#mainPage{
+  background-image: url(https://world-geography-games.com/games/flags/flags_world/images/background.png);
+   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  height: 100%;
+
+}
+
+.container-main{
+  background-image: url(https://fondosmil.com/fondo/33458.jpg);
+  width: 80%;
+  margin:auto;
+  height: auto;
+  opacity: 1;
+}
+
+.container-title{
+  font-size: 4rem;
+  color:#1d4672 ;  
+  margin:center;
+  text-align: center;
+  
+}
+
+ .container-input{
+   width: 80%;
+  margin:auto;
+  align-items: center;
+  
+}
+
+.input-search{
+  width: 100%;
+   box-sizing: border-box;
+   margin:16px 0;
+   background: rgb(219, 219, 219);
+   padding:10px 10px;
+   height: 60px;
+   border-color:#1c344d ;
+   border-radius: 10px;
+   padding:10px;
+   font-size:35px;
+   overflow: hidden;
+  
+}
+
+.input-search:hover{
+  box-shadow: 0 0 5px 2px #1c344d;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin:auto;
+  height: 100%;
+}
+
+.card-container-box{
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border:1px solid  ;
+  width: 350px;
+  height: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  color:#143457;
+  margin: 20px;
+ 
+}
+
+.container-text{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:auto;
+  align-items: center;
+}
+
+.container-text-title{
+   width: 80%;
+  margin:auto;
+  align-items: center;
+}
+
+.container-text-card{
+  width: 80%;
+   margin:auto;
+  align-items: center;
+}
+
+.text-container{
+  font-size: 30px;
+  color:#1d4672;
+  margin: 40px;
+}
+
+
+.container-button{
+  width: 80%;
+  margin:center;
+  border:0;
+  outline: none;
+}
+
+
+.container-button{
+  width: 250px;
+  height: 50px;
+  font-size:25px;
+   background:#113961;
+  color:#fff;
+  padding: 10px 50px;
+  border-radius: 15px;
+  cursor:pointer;
+  transition: 0.5s;
+  
+}
+
+.container-button:hover{
+  background: #7293a8;
+}
+
+@media only screen  and (max-width:768px){
+
+  .container-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-button{
+    margin-top:10px;
+  }
+
+.card-container-box{
+  max-width: 250px;
+  height: auto;
+}
+
+  
+}
+
