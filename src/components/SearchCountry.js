@@ -13,7 +13,7 @@ const SearchCountry = ({ countries }) => {
     if (continent === null) {
       setContinent(true);
     }
-  }, [  continent ]);
+  }, [  ]);
 
 
   const handleChange = (e) => {
